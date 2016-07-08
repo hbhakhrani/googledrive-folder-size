@@ -1,0 +1,6 @@
+{
+  "name": "Googledrive-folder-size",
+  "tagline": "Chrome extension to compute folder size in Google Drive",
+  "body": "# Google Drive Folder Size\r\nThis is a chrome extension that computes the folder size by adding up the sizes of the individual files. The extension does not recursively compute the size, so only for the files in the folder directly. \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
