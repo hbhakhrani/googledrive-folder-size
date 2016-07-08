@@ -1,0 +1,20 @@
+{
+	"name": "Google Drive Folder Size",
+	"manifest_version": 2,
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://drive.google.com/*",
+				"https://drive.google.com/*"
+			],
+			"js": ["script.js"],
+			"run_at": "document_start"
+		}
+	],
+	"permissions": [
+		"activeTab"// 
+		// "http://drive.google.com",
+		// "https://drive.google.com"
+	]
+}
